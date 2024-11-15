@@ -95,7 +95,56 @@
             .banner button:hover {
                 background-color: #ff4500;
             }
-    </style>
+
+            .cart-section {
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+}
+
+.product-image {
+    max-width: 150px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.cart-details {
+    flex: 1;
+}
+
+.product-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.buy-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #e65a50;
+}
+
+    
     </style>
 </head>
 <body>
@@ -121,6 +170,16 @@
             <h1>Welcome to Our Website</h1>
             <p>Your success starts here. Let's make it happen together.</p>
             <button>Learn More</button>
+        </div>
+    </div>
+
+    <!-- cart section -->
+    <div class="cart-section">
+        <img src="product-image.png" alt="Product Image" class="product-image">
+        <div class="cart-details">
+            <h2 class="product-title">Sleek Headphones</h2>
+            <p class="product-price">$99.99</p>
+            <button class="buy-button">Buy Now</button>
         </div>
     </div>
 
