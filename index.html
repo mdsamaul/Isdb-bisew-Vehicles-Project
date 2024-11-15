@@ -3,11 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Navbar</title>
+    <style>
+        /* Navbar styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+            .navbar a {
+                color: #f2f2f2;
+                padding: 10px 15px;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+                .navbar a:hover {
+                    background-color: #555;
+                    color: white;
+                }
+
+            .navbar .logo {
+                font-size: 24px;
+            }
+
+            .navbar .menu {
+                display: flex;
+            }
+    </style>
 </head>
 <body>
-    this is testting
-    testting 2
-    sdfasdf
+
+    <!-- Navbar section -->
+    <div class="navbar">
+        <a href="#" class="logo">Logo</a>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div style="padding:20px;">
+        <h2>Welcome to our website!</h2>
+        <p>This is a simple example of a navigation bar.</p>
+    </div>
+
 </body>
 </html>
