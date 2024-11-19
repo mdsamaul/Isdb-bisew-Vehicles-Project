@@ -5,5 +5,6 @@
         public int InvoiceId { get; set; }
         public DateTime PaymentTime { get; set; }
         public float Amount{get; set;}
+        public int CustomerId { get; set;}
     }
 }
