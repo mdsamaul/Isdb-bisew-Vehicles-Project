@@ -1,7 +1,4 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-*.vsidx
-/.vs/Isdb-bisew-Vehicles-Project/FileContentIndex/0cac0cc3-c92c-45bf-abc3-92e4635faef4.vsidx
-/.vs/slnx.sqlite
+.DS_Store
+node_modules/
+.env
+.vscode/
