@@ -8,7 +8,6 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
 =======
         [Key , DatabaseGenerated(DatabaseGeneratedOption.Identity)]
->>>>>>> 43b394d4bca55d99403e237b05fc191cedfd6ce0
         public int BookingID { get; set; }
 
         [Required(ErrorMessage = "DriverVehicleID is required.")]
