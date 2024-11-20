@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ride-Sharing-Project-isdb-bisew.props" />
+</Project>
