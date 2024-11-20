@@ -4,7 +4,7 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class Driver
     {
-        [Key]
+        [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int DriverId { get; set; }
 
         [Required(ErrorMessage = "Driver Name is required.")]
