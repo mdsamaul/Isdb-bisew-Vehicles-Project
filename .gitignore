@@ -4,3 +4,7 @@ node_modules/
 .vs/slnx.sqlite
 .vs/slnx.sqlite
 .vs/slnx.sqlite
+# Ignore obj and bin directories
+Ride-Sharing-Project-isdb-bisew/**/obj/
+Ride-Sharing-Project-isdb-bisew/**/bin/
+
