@@ -4,7 +4,7 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class Invoice
     {
-        [Key]
+         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int InvoiceId { get; set; }
 
         [Required(ErrorMessage = "Payment Time is required.")]

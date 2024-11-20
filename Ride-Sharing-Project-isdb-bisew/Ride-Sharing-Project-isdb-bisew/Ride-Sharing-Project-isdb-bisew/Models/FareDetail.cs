@@ -1,11 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class FareDetail
     {
-        [Key]
+        [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int FareDetailsID { get; set; }
 
         [Required(ErrorMessage = "Vehicle Type ID is required.")]

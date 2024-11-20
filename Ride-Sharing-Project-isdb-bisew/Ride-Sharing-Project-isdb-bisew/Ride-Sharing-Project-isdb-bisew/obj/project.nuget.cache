@@ -1,6 +1,24 @@
 {
   "version": 2,
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "dgSpecHash": "8fhk0l78PvI=",
+  "success": true,
+  "projectFilePath": "F:\\Isdb-bisew-Vehicles-Project-main\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\Isdb-bisew-Vehicles-Project-main\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+=======
+  "dgSpecHash": "0DBJ57B7XOU=",
+=======
   "dgSpecHash": "tquA7FMXnmQ=",
+>>>>>>> 43b394d4bca55d99403e237b05fc191cedfd6ce0
   "success": true,
   "projectFilePath": "D:\\ISdb- project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew.csproj",
   "expectedPackageFiles": [
@@ -84,6 +102,10 @@
     "C:\\Users\\User\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
+<<<<<<< HEAD
+  "logs": []
+>>>>>>> 66656895b4e9e124ab3d67f8601cad35a5c1dd87
+=======
   "logs": [
     {
       "code": "Undefined",
@@ -92,4 +114,5 @@
       "message": "Problem reading the cache file D:\\ISdb- project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
+>>>>>>> 43b394d4bca55d99403e237b05fc191cedfd6ce0
 }

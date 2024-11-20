@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class RideTrack
     {
-        [Key]
+       [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int TrackID { get; set; }
 
         [Required(ErrorMessage = "Booking ID is required.")]

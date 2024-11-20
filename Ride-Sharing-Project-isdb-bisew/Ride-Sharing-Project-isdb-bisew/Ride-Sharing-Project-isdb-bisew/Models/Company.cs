@@ -4,7 +4,7 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class Company
     {
-        [Key]
+        [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int CompanyId { get; set; }
 
         [Required(ErrorMessage = "Company Name is required.")]
