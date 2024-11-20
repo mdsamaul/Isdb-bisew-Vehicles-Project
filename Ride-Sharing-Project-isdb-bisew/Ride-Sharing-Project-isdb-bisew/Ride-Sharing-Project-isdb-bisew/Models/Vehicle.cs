@@ -6,8 +6,6 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
     public class Vehicle
     {
       [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
-=======
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int VehicleID { get; set; }
 
         [Required(ErrorMessage = "Brand is required.")]
