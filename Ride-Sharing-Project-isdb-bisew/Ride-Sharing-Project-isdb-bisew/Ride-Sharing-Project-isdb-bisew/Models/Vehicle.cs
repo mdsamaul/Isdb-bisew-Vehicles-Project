@@ -5,11 +5,8 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class Vehicle
     {
-<<<<<<< HEAD
-=======
       [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
 =======
->>>>>>> 635a87291e1346eeaae3658fd57290960968e828
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int VehicleID { get; set; }
 
