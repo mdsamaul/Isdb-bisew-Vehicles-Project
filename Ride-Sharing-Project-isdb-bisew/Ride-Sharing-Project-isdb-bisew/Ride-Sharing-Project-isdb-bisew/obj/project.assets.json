@@ -4874,10 +4874,14 @@
       "level": "Warning",
       "warningLevel": 1,
 <<<<<<< HEAD
+      "message": "Problem reading the cache file D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'expectedPackageFiles', line 87, position 0."
+=======
+<<<<<<< HEAD
       "message": "Problem reading the cache file F:\\Isdb-bisew-Vehicles-Project-main\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
 =======
       "message": "Problem reading the cache file D:\\ISdb- project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
 >>>>>>> 43b394d4bca55d99403e237b05fc191cedfd6ce0
+>>>>>>> c63c29cbcbd38661654bbdcac07bc4ed018e1559
     }
   ]
 }
