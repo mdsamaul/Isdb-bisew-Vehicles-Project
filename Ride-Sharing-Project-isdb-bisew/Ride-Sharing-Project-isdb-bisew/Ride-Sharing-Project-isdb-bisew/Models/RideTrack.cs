@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-﻿namespace Ride_Sharing_Project_isdb_bisew.Models
-{
-    public class RideTrack
-    {
-        public int TrackID { get; set; }
-        public int BookingID { get; set; }
-        public double Lat { get; set; }
-        public double Lon { get; set; }
-        public double Distance { get; set; }
-        public DateTime TrackTime { get; set; }
-
-        // Navigation Property for Booking (Assuming a Booking table exists)
-        public Booking Booking { get; set; }
-=======
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
@@ -39,6 +24,5 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 
         [Required(ErrorMessage = "Track Time is required.")]
         public DateTime TrackTime { get; set; }
->>>>>>> 66656895b4e9e124ab3d67f8601cad35a5c1dd87
     }
 }

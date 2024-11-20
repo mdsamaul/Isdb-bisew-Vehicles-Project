@@ -1,21 +1,4 @@
-<<<<<<< HEAD
-﻿namespace Ride_Sharing_Project_isdb_bisew.Models
-{
-    public class Customer
-    {
-        public int CustomerID { get; set; }
-        public string Name { get; set; }
-        public string EMail { get; set; }
-        public string Mobile { get; set; }
-        public string NID { get; set; }
-        public string Picture { get; set; }
-        public double Lat { get; set; }
-        public double Lon { get; set; }
-
-        // Relationship with Booking
-        public ICollection<Booking> Bookings { get; set; }
-=======
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
@@ -44,6 +27,5 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
         [Required(ErrorMessage = "Longitude is required.")]
         [Range(-180, 180, ErrorMessage = "Longitude must be between -180 and 180.")]
         public decimal Lon { get; set; }
->>>>>>> 66656895b4e9e124ab3d67f8601cad35a5c1dd87
     }
 }

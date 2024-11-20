@@ -1,21 +1,4 @@
-<<<<<<< HEAD
-﻿namespace Ride_Sharing_Project_isdb_bisew.Models
-{
-    public class DriverVehicle
-    {
-        public int DriverVehicleID { get; set; }
-        public int DriverID { get; set; }
-        public int RegistrationNo { get; set; }
-        public int ChassisNo { get; set; }
-        public int VehicleLicence { get; set; }
-
-        // Navigation Property for Driver
-        public Driver Driver { get; set; }
-
-        // Relationship with RideTrack
-        public ICollection<RideTrack> RideTracks { get; set; }
-=======
-﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
@@ -43,6 +26,5 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 
         // Navigation property
         public virtual Driver? Driver { get; set; }
->>>>>>> 66656895b4e9e124ab3d67f8601cad35a5c1dd87
     }
 }
