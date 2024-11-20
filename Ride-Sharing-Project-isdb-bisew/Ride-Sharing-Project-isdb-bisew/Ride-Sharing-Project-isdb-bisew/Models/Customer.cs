@@ -4,7 +4,7 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class Customer
     {
-        [Key]
+       [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int CustomerID { get; set; }
 
         [Required(ErrorMessage = "Customer Name is required.")]

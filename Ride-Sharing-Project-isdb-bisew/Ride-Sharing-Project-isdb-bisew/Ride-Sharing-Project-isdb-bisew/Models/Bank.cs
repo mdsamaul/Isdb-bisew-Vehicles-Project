@@ -4,7 +4,7 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class Bank
     {
-        [Key]
+      [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int BankID { get; set; }
 
         [Required(ErrorMessage = "Company ID is required.")]

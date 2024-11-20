@@ -5,7 +5,7 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class DriverVehicle
     {
-        [Key]
+       [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int DriverVehicleID { get; set; }
 
         [Required(ErrorMessage = "DriverID is required.")]
