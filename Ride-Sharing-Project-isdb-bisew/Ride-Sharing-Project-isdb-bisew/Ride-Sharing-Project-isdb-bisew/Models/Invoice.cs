@@ -4,5 +4,6 @@
     {
         public int InvoiceId { get; set; }
         public DateTime PaymentTime { get; set; }
+
     }
 }
