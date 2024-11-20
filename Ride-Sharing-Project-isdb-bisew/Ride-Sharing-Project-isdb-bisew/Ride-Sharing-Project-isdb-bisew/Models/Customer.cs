@@ -2,25 +2,20 @@
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
-    public class Driver
+    public class Customer
     {
         [Key]
-        public int DriverId { get; set; }
+        public int CustomerID { get; set; }
 
-        [Required(ErrorMessage = "Driver Name is required.")]
-        [StringLength(100, ErrorMessage = "Driver Name cannot exceed 100 characters.")]
-        public string? DriverName { get; set; }
+        [Required(ErrorMessage = "Customer Name is required.")]
+        [StringLength(100, ErrorMessage = "Customer Name cannot exceed 100 characters.")]
+        public string? CustomerName { get; set; }
 
         [EmailAddress(ErrorMessage = "Invalid Email format.")]
         public string? Email { get; set; }
 
-        [Required(ErrorMessage = "NID Number is required.")]
         [Range(1, int.MaxValue, ErrorMessage = "NID Number must be a positive number.")]
-        public int NID_Number { get; set; }
-
-        [Required(ErrorMessage = "Driving License is required.")]
-        [StringLength(50, ErrorMessage = "Driving License cannot exceed 50 characters.")]
-        public string? DrivingLicense { get; set; }
+        public int? NID_Number { get; set; }
 
         [StringLength(250, ErrorMessage = "Picture path cannot exceed 250 characters.")]
         public string? Picture { get; set; }
