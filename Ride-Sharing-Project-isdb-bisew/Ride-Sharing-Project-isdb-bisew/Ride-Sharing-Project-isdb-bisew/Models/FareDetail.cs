@@ -2,5 +2,11 @@
 {
     public class FareDetail
     {
+        public int FareDetailsID { get; set; }
+        public int VehicleTypeId { get; set; }
+        public decimal UnitPrice { get; set; }
+
+        // Navigation Property for VehicleType
+        public VehicleType VehicleType { get; set; }
     }
 }
