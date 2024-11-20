@@ -68,8 +68,8 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
         public decimal? CustomerRating { get; set; }
 
         // Navigation properties
-        public virtual DriverVehicle DriverVehicle { get; set; }
-        public virtual Customer Customer { get; set; }
-        public virtual Vehicle Vehicle { get; set; }
+        public virtual DriverVehicle? DriverVehicle { get; set; }
+        public virtual Customer? Customer { get; set; }
+        public virtual Vehicle? Vehicle { get; set; }
     }
 }

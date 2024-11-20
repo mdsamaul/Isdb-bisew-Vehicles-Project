@@ -26,6 +26,6 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
         public int VehicleTypeId { get; set; }
 
         // Navigation property for VehicleType
-        public virtual VehicleType VehicleType { get; set; }
+        public virtual VehicleType? VehicleType { get; set; }
     }
 }
