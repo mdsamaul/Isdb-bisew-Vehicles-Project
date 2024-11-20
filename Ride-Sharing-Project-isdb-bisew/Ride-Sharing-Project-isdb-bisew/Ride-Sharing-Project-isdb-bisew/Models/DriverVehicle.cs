@@ -7,5 +7,11 @@
         public int RegistrationNo { get; set; }
         public int ChassisNo { get; set; }
         public int VehicleLicence { get; set; }
+
+        // Navigation Property for Driver
+        public Driver Driver { get; set; }
+
+        // Relationship with RideTrack
+        public ICollection<RideTrack> RideTracks { get; set; }
     }
 }
