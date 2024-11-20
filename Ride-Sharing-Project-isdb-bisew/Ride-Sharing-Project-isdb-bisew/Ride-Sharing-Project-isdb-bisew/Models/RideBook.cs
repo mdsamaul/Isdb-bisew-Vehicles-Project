@@ -5,7 +5,6 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class RideBook
     {
-<<<<<<< HEAD
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
 =======
         [Key , DatabaseGenerated(DatabaseGeneratedOption.Identity)]
