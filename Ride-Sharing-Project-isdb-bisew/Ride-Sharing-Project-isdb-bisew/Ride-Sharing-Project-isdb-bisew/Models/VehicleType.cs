@@ -5,7 +5,7 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class VehicleType
     {
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+      [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int VehicleTypeId { get; set; }
 
         [Required(ErrorMessage = "Name is required.")]

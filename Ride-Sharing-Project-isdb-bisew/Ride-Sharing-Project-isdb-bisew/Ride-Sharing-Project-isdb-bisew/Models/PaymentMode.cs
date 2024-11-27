@@ -4,7 +4,7 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
 {
     public class PaymentMode
     {
-        [Key]
+         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int PaymentModeId { get; set; }
 
         [Required(ErrorMessage = "Payment Mode Name is required.")]
