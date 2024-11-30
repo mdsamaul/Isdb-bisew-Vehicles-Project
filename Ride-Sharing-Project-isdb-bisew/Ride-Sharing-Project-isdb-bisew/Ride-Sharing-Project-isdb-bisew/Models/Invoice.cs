@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
-    public class Invoice
+    public class Invoice : BaseEntity
     {
          [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int InvoiceId { get; set; }
