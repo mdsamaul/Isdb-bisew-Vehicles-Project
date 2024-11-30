@@ -21,6 +21,5 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
         public DbSet<Bank>? Banks { get; set; }
         public DbSet<Employee>? Employees { get; set; }
         public DbSet<Chat>? Chats { get; set; }
-
     }
 }
