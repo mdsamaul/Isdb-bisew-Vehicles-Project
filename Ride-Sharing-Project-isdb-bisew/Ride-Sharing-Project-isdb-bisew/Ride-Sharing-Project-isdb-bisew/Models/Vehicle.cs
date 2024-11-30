@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
-    public class Vehicle
+    public class Vehicle : BaseEntity
     {
       [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int VehicleID { get; set; }

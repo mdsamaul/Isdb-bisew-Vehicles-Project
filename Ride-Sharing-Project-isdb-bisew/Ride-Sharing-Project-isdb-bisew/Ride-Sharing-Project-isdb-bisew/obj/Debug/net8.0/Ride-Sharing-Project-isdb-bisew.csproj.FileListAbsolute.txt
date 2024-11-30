@@ -49,6 +49,7 @@ D:\ISdb- project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Rid
 D:\ISdb- project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\Ride-Sharing-Project-isdb-bisew.pdb
 D:\ISdb- project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\Ride-Sharing-Project-isdb-bisew.genruntimeconfig.cache
 D:\ISdb- project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\ref\Ride-Sharing-Project-isdb-bisew.dll
+>>>>>>> 66656895b4e9e124ab3d67f8601cad35a5c1dd87
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\bin\Debug\net8.0\appsettings.Development.json
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\bin\Debug\net8.0\appsettings.json
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\bin\Debug\net8.0\Ride-Sharing-Project-isdb-bisew.staticwebassets.runtime.json
@@ -215,11 +216,10 @@ D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bise
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Ride-Sharing-Project-isdb-bisew.props
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Ride-Sharing-Project-isdb-bisew.props
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\staticwebassets.pack.json
-D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\Ride-Sha.9B32D8FC.Up2Date
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\Ride-Sharing-Project-isdb-bisew.dll
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\refint\Ride-Sharing-Project-isdb-bisew.dll
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\Ride-Sharing-Project-isdb-bisew.pdb
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\Ride-Sharing-Project-isdb-bisew.genruntimeconfig.cache
 D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\ref\Ride-Sharing-Project-isdb-bisew.dll
->>>>>>> 66656895b4e9e124ab3d67f8601cad35a5c1dd87
+D:\course\idb-project\Isdb-bisew-Vehicles-Project\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\Ride-Sharing-Project-isdb-bisew\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
