@@ -12,7 +12,7 @@ using Ride_Sharing_Project_isdb_bisew.Models;
 namespace Ride_Sharing_Project_isdb_bisew.Migrations
 {
     [DbContext(typeof(VichecleDbContext))]
-    [Migration("20241130075456_VichecleInit")]
+    [Migration("20241130080451_VichecleInit")]
     partial class VichecleInit
     {
         /// <inheritdoc />
@@ -118,6 +118,8 @@ namespace Ride_Sharing_Project_isdb_bisew.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("ChatID");
+
+                    b.HasIndex("CustomerID");
 
                     b.HasIndex("EmployeeID");
 
@@ -664,11 +666,19 @@ namespace Ride_Sharing_Project_isdb_bisew.Migrations
 
             modelBuilder.Entity("Ride_Sharing_Project_isdb_bisew.Models.Chat", b =>
                 {
+                    b.HasOne("Ride_Sharing_Project_isdb_bisew.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Ride_Sharing_Project_isdb_bisew.Models.Employee", "Employee")
                         .WithMany()
                         .HasForeignKey("EmployeeID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Customer");
 
                     b.Navigation("Employee");
                 });

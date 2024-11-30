@@ -247,6 +247,12 @@ namespace Ride_Sharing_Project_isdb_bisew.Migrations
                 {
                     table.PrimaryKey("PK_Chats", x => x.ChatID);
                     table.ForeignKey(
+                        name: "FK_Chats_Customers_CustomerID",
+                        column: x => x.CustomerID,
+                        principalTable: "Customers",
+                        principalColumn: "CustomerID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
                         name: "FK_Chats_Employees_EmployeeID",
                         column: x => x.EmployeeID,
                         principalTable: "Employees",
@@ -329,6 +335,11 @@ namespace Ride_Sharing_Project_isdb_bisew.Migrations
                         principalColumn: "VehicleID",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Chats_CustomerID",
+                table: "Chats",
+                column: "CustomerID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Chats_EmployeeID",

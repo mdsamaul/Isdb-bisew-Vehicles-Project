@@ -116,6 +116,8 @@ namespace Ride_Sharing_Project_isdb_bisew.Migrations
 
                     b.HasKey("ChatID");
 
+                    b.HasIndex("CustomerID");
+
                     b.HasIndex("EmployeeID");
 
                     b.ToTable("Chats");
@@ -661,11 +663,19 @@ namespace Ride_Sharing_Project_isdb_bisew.Migrations
 
             modelBuilder.Entity("Ride_Sharing_Project_isdb_bisew.Models.Chat", b =>
                 {
+                    b.HasOne("Ride_Sharing_Project_isdb_bisew.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Ride_Sharing_Project_isdb_bisew.Models.Employee", "Employee")
                         .WithMany()
                         .HasForeignKey("EmployeeID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Customer");
 
                     b.Navigation("Employee");
                 });
