@@ -1,8 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Ride_Sharing_Project_isdb_bisew.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+var cString = builder.Configuration.GetConnectionString("appCon");
+builder.Services.AddDbContext<VichecleDbContext>(opt =>
+{
+    opt.UseSqlServer(cString);
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
