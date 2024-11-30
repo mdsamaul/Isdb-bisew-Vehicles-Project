@@ -1,6 +1,10 @@
 {
   "Version": 1,
-  "Hash": "xFqmTwSFXj+JvLoNAkbs0TylOIh5wYIwVRTPU975GoI=",
+<<<<<<< HEAD
+  "Hash": "SfGe1wwa/sxVsHlKGCWynrheoHfn2qxopYe0JUo7o0Q=",
+=======
+  "Hash": "WT11JT2yDMfNvcbf/uDFP9CS5qkV2zJfSe0wL3ZBXvw=",
+>>>>>>> 362b4f5f287c5d764a7bc93eea5450ef1bc5952c
   "Source": "Ride-Sharing-Project-isdb-bisew",
   "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
   "Mode": "Default",
@@ -1343,7 +1347,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 06:16:03 GMT"
+<<<<<<< HEAD
+          "Value": "Sat, 30 Nov 2024 06:40:42 GMT"
+=======
+          "Value": "Sat, 30 Nov 2024 06:59:17 GMT"
+>>>>>>> 362b4f5f287c5d764a7bc93eea5450ef1bc5952c
         },
         {
           "Name": "Cache-Control",
@@ -1380,7 +1388,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 06:16:03 GMT"
+<<<<<<< HEAD
+          "Value": "Sat, 30 Nov 2024 06:40:42 GMT"
+=======
+          "Value": "Sat, 30 Nov 2024 06:59:17 GMT"
+>>>>>>> 362b4f5f287c5d764a7bc93eea5450ef1bc5952c
         },
         {
           "Name": "Cache-Control",
