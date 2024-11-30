@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
-    public class RideBook
+    public class RideBook : BaseEntity
     {
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int BookingID { get; set; }
@@ -67,8 +67,8 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
         public decimal? CustomerRating { get; set; }
 
         // Navigation properties
-        public virtual DriverVehicle DriverVehicle { get; set; }
-        public virtual Customer Customer { get; set; }
-        public virtual Vehicle Vehicle { get; set; }
+        public virtual DriverVehicle? DriverVehicle { get; set; }
+        public virtual Customer? Customer { get; set; }
+        public virtual Vehicle? Vehicle { get; set; }
     }
 }
