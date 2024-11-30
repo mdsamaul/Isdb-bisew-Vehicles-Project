@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "Zu73h0Mb9mDkGR4iGcANKCf0BAUECktDb6DpwAMjrRA=",
-=======
-  "Hash": "Rjo7pncxFpaDtp3b+GI2f6jEIiHdsitPA2X9uLV/brw=",
->>>>>>> 82c13ad3fd6744d43a7a171e0400f306d0b74781
+  "Hash": "xFqmTwSFXj+JvLoNAkbs0TylOIh5wYIwVRTPU975GoI=",
   "Source": "Ride-Sharing-Project-isdb-bisew",
   "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
   "Mode": "Default",
@@ -1325,54 +1321,6 @@
   ],
   "Endpoints": [
     {
-<<<<<<< HEAD
-=======
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 07:18:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
->>>>>>> 82c13ad3fd6744d43a7a171e0400f306d0b74781
       "Route": "css/site.css",
       "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1395,11 +1343,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Wed, 27 Nov 2024 17:39:32 GMT"
-=======
-          "Value": "Wed, 20 Nov 2024 07:18:30 GMT"
->>>>>>> 82c13ad3fd6744d43a7a171e0400f306d0b74781
+          "Value": "Sat, 30 Nov 2024 06:16:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1436,7 +1380,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 17:39:32 GMT"
+          "Value": "Sat, 30 Nov 2024 06:16:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6319,7 +6263,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 07:18:30 GMT"
+          "Value": "Sat, 30 Nov 2024 06:23:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6364,7 +6308,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 07:18:30 GMT"
+          "Value": "Sat, 30 Nov 2024 06:23:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6409,7 +6353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 07:18:30 GMT"
+          "Value": "Sat, 30 Nov 2024 06:23:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6446,7 +6390,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 07:18:30 GMT"
+          "Value": "Sat, 30 Nov 2024 06:23:46 GMT"
         },
         {
           "Name": "Cache-Control",
