@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
@@ -6,7 +6,6 @@ namespace Ride_Sharing_Project_isdb_bisew.Models
     public class DriverVehicle
     {
        [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
-
         public int DriverVehicleID { get; set; }
 
         [Required(ErrorMessage = "DriverID is required.")]
