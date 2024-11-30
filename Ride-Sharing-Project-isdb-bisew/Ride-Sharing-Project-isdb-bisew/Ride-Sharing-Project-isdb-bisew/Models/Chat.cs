@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
-    public class Chat
+    public class Chat : BaseEntity
     {
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key annotation for ChatID
         public int ChatID { get; set; }

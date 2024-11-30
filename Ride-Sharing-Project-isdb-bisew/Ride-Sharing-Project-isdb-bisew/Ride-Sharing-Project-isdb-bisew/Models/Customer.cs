@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models
 {
-    public class Customer
+    public class Customer : BaseEntity
     {
-        [Key]
+       [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Primary Key
         public int CustomerID { get; set; }
 
         [Required(ErrorMessage = "Customer Name is required.")]
