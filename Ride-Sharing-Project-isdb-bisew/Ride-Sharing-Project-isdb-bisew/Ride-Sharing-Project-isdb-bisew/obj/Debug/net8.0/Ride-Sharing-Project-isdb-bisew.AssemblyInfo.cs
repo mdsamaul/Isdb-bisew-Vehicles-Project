@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ride-Sharing-Project-isdb-bisew")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12e59ff4e09e91f252379736359fc681f34686d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4414e6947f87d534495642b3de6b7f6f37567547")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ride-Sharing-Project-isdb-bisew")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ride-Sharing-Project-isdb-bisew")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
