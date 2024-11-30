@@ -111,7 +111,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 30 Nov 2024 06:59:17 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Sat, 30 Nov 2024 06:40:42 GMT"
+=======
+          "Value": "Sat, 30 Nov 2024 06:59:17 GMT"
+>>>>>>> 362b4f5f287c5d764a7bc93eea5450ef1bc5952c
+>>>>>>> f18649ef29516a8541deee906b384f6799296123
         }
       ],
       "EndpointProperties": [
@@ -148,7 +156,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sat, 30 Nov 2024 06:59:17 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Sat, 30 Nov 2024 06:40:42 GMT"
+=======
+          "Value": "Sat, 30 Nov 2024 06:59:17 GMT"
+>>>>>>> 362b4f5f287c5d764a7bc93eea5450ef1bc5952c
+>>>>>>> f18649ef29516a8541deee906b384f6799296123
         }
       ],
       "EndpointProperties": [
