@@ -1,109 +1,40 @@
-html {
-  font-size: 14px;
+*{
+    padding:0;
+    margin:0;
+}
+.mainConteiner{
+    width:100vw;
+    background-color:black;
+    position:relative;
+    padding:0;
+}
+.headerConteiner {
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+.hero-section {
+    width:100vw;
+    height:80vh;
+    z-index: 10;
+    position:fixed;
+    top:0;
+    background-color:rgba(0,0,0,.5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-
-<!-- Custom Styles -->
-<style >
-/* Full width Navbar */
-.navbar {
-    background-color: #2c3e50;
-    transition: all 0.3s ease-in-out;
-}
-
-/* Logo Styling */
-.navbar-brand {
-    font-size: 1.8rem;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-    .navbar-brand:hover {
-        color: #3498db;
-    }
-
-/* Navbar Links (Center) */
-.navbar-nav {
+.hero-body {
+    width: 50%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.849);
     display: flex;
     justify-content: center;
-    width: 100%;
-}
-
-.nav-item {
-    padding: 0 15px;
-}
-
-.nav-link {
-    color: #fff !important;
-    font-size: 1rem;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
-}
-
-    .nav-link:hover {
-        color: #3498db !important;
-        transform: scale(1.1);
-    }
-
-/* Right Buttons */
-.nav-button {
-    font-size: 1rem;
-    color: #fff;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-    .nav-button:hover {
-        color: #3498db;
-        transform: scale(1.1);
-    }
-
-/* Hover Animation */
-.navbar-toggler-icon {
-    background-color: #fff;
-}
-
-/* Smooth Transition */
-.nav-link, .nav-button {
-    transition: all 0.4s ease;
-}
-
-.navbar-toggler {
-    border: none;
-    background: none;
-}
-
-/* Responsive Styling */
-@media (max-width: 768px) {
-    .navbar-nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-item {
-        padding: 10px 0;
-    }
-
-    .navbar-collapse {
-        text-align: center;
-    }
+    align-items: center;
+    border-radius:10px;
 }

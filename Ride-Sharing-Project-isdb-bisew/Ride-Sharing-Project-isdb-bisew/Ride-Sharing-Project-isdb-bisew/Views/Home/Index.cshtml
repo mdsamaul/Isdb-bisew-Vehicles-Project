@@ -1,47 +1,100 @@
 ﻿@{
     ViewData["Title"] = "Your Ride, Your Way";
 }
+<div class="position-relative seliderConteiner">
 
-<div class="hero-section text-center">
-    <h1 class="display-4">Your Ride, Your Way!</h1>
-    <p class="lead">Choose your ride, your path, your rules. Travel on your terms.</p>
-    <a class="btn btn-primary btn-lg" href="#book-a-ride">Book a Ride</a>
-</div>
+    <section >
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="@Url.Content("~/images/bg1.png")" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="@Url.Content("~/images/bg1.png")" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="@Url.Content("~/images/bg1.png")" class="d-block w-100" alt="...">
+                </div>
+            </div>          
+        </div>
+    </section>
 
-<!-- Features Section -->
-<div class="container text-center my-5">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="feature-icon">
-                <i class="fas fa-car"></i>
-            </div>
-            <h3>Book a Ride</h3>
-            <p class="feature-text">Choose the vehicle that fits your need.</p>
-            <a class="btn btn-info" href="#">Book Now</a>
-        </div>
-        <div class="col-md-3">
-            <div class="feature-icon">
-                <i class="fas fa-cogs"></i>
-            </div>
-            <h3>Your Wiks, Your Ride</h3>
-            <p class="feature-text">Customize your ride experience.</p>
-            <a class="btn btn-info" href="#">How It Works</a>
-        </div>
-        <div class="col-md-3">
-            <div class="feature-icon">
-                <i class="fas fa-user-tie"></i>
-            </div>
-            <h3>Become a Ride</h3>
-            <p class="feature-text">Join our platform and become a ride partner.</p>
-            <a class="btn btn-info" href="#">Join Now</a>
-        </div>
-        <div class="col-md-3">
-            <div class="feature-icon">
-                <i class="fas fa-car-side"></i>
-            </div>
-            <h3>Become a Driver</h3>
-            <p class="feature-text">Drive and earn with us. Apply today!</p>
-            <a class="btn btn-info" href="#">Start Driving</a>
+    <div class="hero-section text-center position-absolute">
+        <div class="hero-body">
+           <div>
+                <div class="container">
+                    <div class="row mb-4">
+                        <!-- Pickup Location -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="pickupLocation" class="form-label text-black fw-bold">Pickup Location</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-search"></i>
+                                    </span>
+                                    <input type="text" class="form-control pickup-location" id="pickupLocation" placeholder="Enter pickup location">
+                                    <button class="btn btn-outline-secondary clearPickupBtn" type="button">
+                                        <i class="bi bi-x-circle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Dropoff Location -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="dropoffLocation" class="form-label text-black fw-bold">Dropoff Location</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-search"></i>
+                                    </span>
+                                    <input type="text" class="form-control dropoff-location" id="dropoffLocation" placeholder="Enter dropoff location">
+                                    <button class="btn btn-outline-secondary clearDropoffBtn" type="button">
+                                        <i class="bi bi-x-circle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <!-- Date Selector -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="datePicker" class="form-label text-black fw-bold">Select Date</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-calendar"></i>
+                                    </span>
+                                    <input type="date" class="form-control" id="datePicker" placeholder="Today">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Time Selector -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="timePicker" class="form-label text-black fw-bold">Select Time</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-clock"></i>
+                                    </span>
+                                    <input type="time" class="form-control" id="timePicker" placeholder="Now">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col text-center">
+                            <a href="https://m.uber.com/looking" class="btn btn-primary">See Vichecle</a>
+                        </div>
+                    </div>
+                </div>
+
+           </div>
         </div>
     </div>
+
 </div>
+
