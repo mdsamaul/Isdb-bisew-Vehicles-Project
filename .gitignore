@@ -7,4 +7,5 @@ node_modules/
 # Ignore obj and bin directories
 Ride-Sharing-Project-isdb-bisew/**/obj/
 Ride-Sharing-Project-isdb-bisew/**/bin/
-
+obj
+bin

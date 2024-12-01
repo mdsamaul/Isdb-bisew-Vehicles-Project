@@ -15,9 +15,6 @@ namespace Ride_Sharing_Project_isdb_bisew.Controllers
         {
           
                 return View("Create");
-          
-
-            // সফলভাবে ডাটা প্রসেস করা হলে রেসপন্স রিটার্ন করুন
            
         }
     }

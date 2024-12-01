@@ -5,12 +5,12 @@ namespace Ride_Sharing_Project_isdb_bisew.Models.ViewModel
 {
     public class DriverVm
     {
-        [Required ,DisplayName("Driver Name")]
+        [DisplayName("Driver Name")]
         public string? DriverName { get; set; }
-        public required string Email { get; set; }
-        [Required, DisplayName("NId Number")]
+        public string? Email { get; set; }
+        [DisplayName("NId Number")]
         public int NID_Number { get; set; }
-        [Required, DisplayName("Driver License")]
+        [DisplayName("Driver License")]
         public string? DrivingLicense { get; set; }
         public string? Picture { get; set; }
         public IFormFile? PictureFile { get; set; } 
