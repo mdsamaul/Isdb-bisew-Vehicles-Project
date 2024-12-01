@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\output.css"
     },
     {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\sideNav.min.css",
+      "PackagePath": "staticwebassets\\css\\sideNav.min.css"
+    },
+    {
       "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -33,16 +37,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.1.js",
-      "PackagePath": "staticwebassets\\js\\newFile.1.js"
-    },
-    {
-      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.js",
-      "PackagePath": "staticwebassets\\js\\newFile.js"
-    },
-    {
       "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\siteNave.min.1.js",
+      "PackagePath": "staticwebassets\\js\\siteNave.min.1.js"
+    },
+    {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\siteNave.min.js",
+      "PackagePath": "staticwebassets\\js\\siteNave.min.js"
     },
     {
       "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\lib\\bootstrap\\LICENSE",

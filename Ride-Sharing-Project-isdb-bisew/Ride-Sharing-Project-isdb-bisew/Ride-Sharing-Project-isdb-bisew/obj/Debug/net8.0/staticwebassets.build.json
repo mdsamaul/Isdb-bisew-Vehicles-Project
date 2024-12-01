@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CvLeWURSS2WYiMSUGxioY/Kwz9HTkIjyOHBbyuaF65I=",
+  "Hash": "a78gEHIFn07vxPFoeATlMZj0WWqpnMcCBG8RZPqRRZg=",
   "Source": "Ride-Sharing-Project-isdb-bisew",
   "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\output.css"
+    },
+    {
+      "Identity": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\sideNav.min.css",
+      "SourceId": "Ride-Sharing-Project-isdb-bisew",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\",
+      "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
+      "RelativePath": "css/sideNav.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eps39ivpw1",
+      "Integrity": "EhUkqc/TzOEhUbQjUTirMrmdLZmKYgtFJMx/Q2rZyVM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sideNav.min.css"
     },
     {
       "Identity": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
@@ -206,48 +227,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\samaul.png"
     },
     {
-      "Identity": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.1.js",
-      "SourceId": "Ride-Sharing-Project-isdb-bisew",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\",
-      "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
-      "RelativePath": "js/newFile.1#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3auegat6b7",
-      "Integrity": "y1hwlv5l/3NIXgZ+WTQpkYn9HXuuwWxDac0HnTPs8uM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\newFile.1.js"
-    },
-    {
-      "Identity": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.js",
-      "SourceId": "Ride-Sharing-Project-isdb-bisew",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\",
-      "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
-      "RelativePath": "js/newFile#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\newFile.js"
-    },
-    {
       "Identity": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\site.js",
       "SourceId": "Ride-Sharing-Project-isdb-bisew",
       "SourceType": "Discovered",
@@ -262,11 +241,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rdpt5plaqv",
-      "Integrity": "QeHvzJ67aGfSehWlN+5ot7kSylwtqVZKDxI+2zcsN/o=",
+      "Fingerprint": "6ewpx5nt4j",
+      "Integrity": "wuoylYPM7YaxDISS3tOvasKBm2IhmlXRPe2el+1tz44=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\siteNave.min.1.js",
+      "SourceId": "Ride-Sharing-Project-isdb-bisew",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\",
+      "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
+      "RelativePath": "js/siteNave.min.1#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3auegat6b7",
+      "Integrity": "y1hwlv5l/3NIXgZ+WTQpkYn9HXuuwWxDac0HnTPs8uM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\siteNave.min.1.js"
+    },
+    {
+      "Identity": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\siteNave.min.js",
+      "SourceId": "Ride-Sharing-Project-isdb-bisew",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\",
+      "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
+      "RelativePath": "js/siteNave.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w5nrtz78ea",
+      "Integrity": "/Dg/BoW3836/XtvSTmrapvcRrkWTfcZ+aArMp9UdxCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\siteNave.min.js"
     },
     {
       "Identity": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1550,6 +1571,88 @@
       ]
     },
     {
+      "Route": "css/sideNav.min.css",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\sideNav.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "432796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EhUkqc/TzOEhUbQjUTirMrmdLZmKYgtFJMx/Q2rZyVM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 18:04:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EhUkqc/TzOEhUbQjUTirMrmdLZmKYgtFJMx/Q2rZyVM="
+        }
+      ]
+    },
+    {
+      "Route": "css/sideNav.min.eps39ivpw1.css",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\sideNav.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "432796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EhUkqc/TzOEhUbQjUTirMrmdLZmKYgtFJMx/Q2rZyVM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 18:04:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eps39ivpw1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/sideNav.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EhUkqc/TzOEhUbQjUTirMrmdLZmKYgtFJMx/Q2rZyVM="
+        }
+      ]
+    },
+    {
       "Route": "css/site.2w1end62ml.css",
       "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2042,8 +2145,90 @@
       ]
     },
     {
-      "Route": "js/newFile.1.3auegat6b7.js",
-      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.1.js",
+      "Route": "js/site.6ewpx5nt4j.js",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wuoylYPM7YaxDISS3tOvasKBm2IhmlXRPe2el+1tz44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 20:01:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ewpx5nt4j"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wuoylYPM7YaxDISS3tOvasKBm2IhmlXRPe2el+1tz44="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wuoylYPM7YaxDISS3tOvasKBm2IhmlXRPe2el+1tz44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 20:01:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wuoylYPM7YaxDISS3tOvasKBm2IhmlXRPe2el+1tz44="
+        }
+      ]
+    },
+    {
+      "Route": "js/siteNave.min.1.3auegat6b7.js",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\siteNave.min.1.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2078,7 +2263,7 @@
         },
         {
           "Name": "label",
-          "Value": "js/newFile.1.js"
+          "Value": "js/siteNave.min.1.js"
         },
         {
           "Name": "integrity",
@@ -2087,8 +2272,8 @@
       ]
     },
     {
-      "Route": "js/newFile.1.js",
-      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.1.js",
+      "Route": "js/siteNave.min.1.js",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\siteNave.min.1.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2124,8 +2309,8 @@
       ]
     },
     {
-      "Route": "js/newFile.5ipweew5fc.js",
-      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.js",
+      "Route": "js/siteNave.min.js",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\siteNave.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2134,7 +2319,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "1212563"
         },
         {
           "Name": "Content-Type",
@@ -2142,56 +2327,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"/Dg/BoW3836/XtvSTmrapvcRrkWTfcZ+aArMp9UdxCY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 16:59:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ipweew5fc"
-        },
-        {
-          "Name": "label",
-          "Value": "js/newFile.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
-        }
-      ]
-    },
-    {
-      "Route": "js/newFile.js",
-      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 16:59:51 GMT"
+          "Value": "Sun, 01 Dec 2024 18:10:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2201,13 +2341,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-/Dg/BoW3836/XtvSTmrapvcRrkWTfcZ+aArMp9UdxCY="
         }
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\site.js",
+      "Route": "js/siteNave.min.w5nrtz78ea.js",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\siteNave.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2216,7 +2356,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "936"
+          "Value": "1212563"
         },
         {
           "Name": "Content-Type",
@@ -2224,48 +2364,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QeHvzJ67aGfSehWlN+5ot7kSylwtqVZKDxI+2zcsN/o=\""
+          "Value": "\"/Dg/BoW3836/XtvSTmrapvcRrkWTfcZ+aArMp9UdxCY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 17:05:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QeHvzJ67aGfSehWlN+5ot7kSylwtqVZKDxI+2zcsN/o="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.rdpt5plaqv.js",
-      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "936"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QeHvzJ67aGfSehWlN+5ot7kSylwtqVZKDxI+2zcsN/o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 17:05:48 GMT"
+          "Value": "Sun, 01 Dec 2024 18:10:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2275,15 +2378,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rdpt5plaqv"
+          "Value": "w5nrtz78ea"
         },
         {
           "Name": "label",
-          "Value": "js/site.js"
+          "Value": "js/siteNave.min.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QeHvzJ67aGfSehWlN+5ot7kSylwtqVZKDxI+2zcsN/o="
+          "Value": "sha256-/Dg/BoW3836/XtvSTmrapvcRrkWTfcZ+aArMp9UdxCY="
         }
       ]
     },
