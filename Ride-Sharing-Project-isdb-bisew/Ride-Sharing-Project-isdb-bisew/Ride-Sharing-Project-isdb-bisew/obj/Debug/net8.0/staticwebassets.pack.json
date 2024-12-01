@@ -5,12 +5,40 @@
       "PackagePath": "staticwebassets\\Ride-Sharing-Project-isdb-bisew.amk74w3g95.bundle.scp.css"
     },
     {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\Images\\bg1.png",
+      "PackagePath": "staticwebassets\\Images\\bg1.png"
+    },
+    {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\Images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo\\logo.png"
+    },
+    {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\Images\\samaul.png",
+      "PackagePath": "staticwebassets\\Images\\samaul.png"
+    },
+    {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
+    },
+    {
       "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\tailwind.css",
+      "PackagePath": "staticwebassets\\css\\tailwind.css"
+    },
+    {
       "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.1.js",
+      "PackagePath": "staticwebassets\\js\\newFile.1.js"
+    },
+    {
+      "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\newFile.js",
+      "PackagePath": "staticwebassets\\js\\newFile.js"
     },
     {
       "Id": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\js\\site.js",

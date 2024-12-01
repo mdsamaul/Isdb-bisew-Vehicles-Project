@@ -1,4 +1,3 @@
-﻿
 $(document).ready(() => {
     $(".clearPickupBtn").click(() => {
         $(".pickup-location").val('');
@@ -15,7 +14,6 @@ $(document).ready(() => {
     $("#timePicker").focus(() => {
         $("#timePicker").val(getCurrentTime());
     });
-
     $(".singinbtn").click((e) => {
         e.preventDefault();
         $(".entyPersonContainer").show();
@@ -29,3 +27,5 @@ $(document).ready(() => {
         $(".entyPersonContainer").hide();
     });
 });
+
+
