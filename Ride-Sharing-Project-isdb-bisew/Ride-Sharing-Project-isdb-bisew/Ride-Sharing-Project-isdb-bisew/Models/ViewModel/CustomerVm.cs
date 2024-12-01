@@ -3,8 +3,7 @@
 namespace Ride_Sharing_Project_isdb_bisew.Models.ViewModel
 {
     public class CustomerVm
-    {
-        public int CustomerID { get; set; }
+    {       
         public string? CustomerName { get; set; }
         public string? Email { get; set; }
         public int? NID_Number { get; set; }
