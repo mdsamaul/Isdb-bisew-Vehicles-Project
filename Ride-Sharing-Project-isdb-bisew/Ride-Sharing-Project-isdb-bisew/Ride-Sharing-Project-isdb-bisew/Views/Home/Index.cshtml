@@ -3,7 +3,7 @@
 }
 <div class="position-relative seliderConteiner">
 
-    <section >
+    <section>
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
@@ -15,13 +15,13 @@
                 <div class="carousel-item">
                     <img src="@Url.Content("~/images/bg1.png")" class="d-block w-100" alt="...">
                 </div>
-            </div>          
+            </div>
         </div>
     </section>
 
     <div class="hero-section text-center position-absolute">
         <div class="hero-body">
-           <div>
+            <div>
                 <div class="container">
                     <div class="row mb-4">
                         <!-- Pickup Location -->
@@ -92,13 +92,13 @@
                     </div>
                 </div>
 
-           </div>
+            </div>
         </div>
     </div>
 </div>
 <section class="entyPersonContainer" style="display:none;">
     <div class="entyPersonBody">
-      <div>
+        <div>
             <div class="cardSection">
                 <div>
                     <div class="card">
@@ -111,7 +111,7 @@
                     <div class="card">
                         <img src="~/images/samaul.png" alt="Profile Image" />
                         @* <img src="https://via.placeholder.com/150" alt="Profile Image"> *@
-                        <a class="cardBtn" asp-action="Create" asp-controller="Customer" type="button">Sign in to Driver</a>
+                        <a class="cardBtn singDriverbtn" asp-action="Create" asp-controller="Driver" type="button">Sign in to Driver</a>
                     </div>
                 </div>
                 <div>
@@ -125,7 +125,7 @@
             <div class="closeSection">
                 <button class="closeSectionBtn">X</button>
             </div>
-      </div>
+        </div>
     </div>
 </section>
 
@@ -141,39 +141,43 @@
 </section>
 
 
-    <script type="text/javascript">
-        $(document).ready(()=>{
+<script type="text/javascript">
+    $(document).ready(()=>{
         $(".singRidebtn").click((e) => {
-        e.preventDefault();
-        $.ajax({
-            url: "/Customer/Create", 
-            type: "get",
-            success: (response) => {
-                $("#bmodal").html(response);
-                $("#pcon").hide();
-                $(".entyPersonContainer").hide();
-                $("#modCon").show();
-            },
-            error: (xhr, status, error) => {
-                console.error("Error occurred:", error);
-                alert("Something went wrong! Please try again.");
-            }
-        });
-        // $.ajax({
-        //     url: "/Customer/Create",
-        //     type: "post",
-        //     success: (response) => {
-        //         $("#bmodal").html(response);
-        //         $("#pcon").hide();
-        //         $(".entyPersonContainer").hide();
-        //         $("#modCon").show();
-        //     },
-        //     error: (xhr, status, error) => {
-        //         console.error("Error occurred:", error);
-        //         alert("Something went wrong! Please try again.");
-        //     }
-        // });
-     });
+            e.preventDefault();
+            $.ajax({
+                        url: "/Customer/Create",
+                        type: "get",
+                        success: (response) => {
+                        $("#bmodal").html(response);
+                        $(".entyPersonContainer").hide();
+                        $("#modCon").show();
+                    },
+                error: (xhr, status, error) => {
+                    console.error("Error occurred:", error);
+                    alert("Something went wrong! Please try again.");
+                }
+            });
+
+    });
+
+     $(".singDriverbtn").click((e) => {
+            e.preventDefault();
+            $.ajax({
+                        url: "/Driver/Create",
+                        type: "get",
+                        success: (response) => {
+                        $("#bmodal").html(response);
+                        $(".entyPersonContainer").hide();
+                        $("#modCon").show();
+                    },
+                error: (xhr, status, error) => {
+                    console.error("Error occurred:", error);
+                    alert("Something went wrong! Please try again.");
+                }
+            });
+
+    });
 
 
                 $("#clBtn").click(()=>{
