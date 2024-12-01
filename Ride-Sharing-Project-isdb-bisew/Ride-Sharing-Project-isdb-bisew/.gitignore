@@ -1,3 +1,7 @@
 .vs/
 *.sqlite
 *.json
+*.obj
+*.bin
+Ride-Sharing-Project-isdb-bisew/**/obj/
+Ride-Sharing-Project-isdb-bisew/**/bin/
