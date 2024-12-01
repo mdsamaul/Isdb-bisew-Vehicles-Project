@@ -1,0 +1,85 @@
+﻿@model Ride_Sharing_Project_isdb_bisew.Models.ViewModel.EmployeeVm
+
+<div class="container my-5">
+    <h4 class="text-center fs-1 mt-5 pt-5 mb-4">Employee Signup</h4>
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <form asp-action="Create" class="p-4 border rounded shadow-lg bg-white">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="row">
+                    <!-- Employee Name -->
+                    <div class="mb-3 col-lg-6 col-12">
+                        <label asp-for="EmployeeName" class="form-label fw-bold">Employee Name</label>
+                        <input asp-for="EmployeeName" class="form-control" placeholder="Enter employee name" />
+                        <span asp-validation-for="EmployeeName" class="text-danger"></span>
+                    </div>
+
+                    <!-- Employee Email -->
+                    <div class="mb-3 col-lg-6 col-12">
+                        <label asp-for="EmployeeEMail" class="form-label fw-bold">Employee Email</label>
+                        <input asp-for="EmployeeEMail" class="form-control" placeholder="Enter employee email" />
+                        <span asp-validation-for="EmployeeEMail" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Is Live -->
+                    <div class="mb-3 col-lg-6 col-12">
+                        <div class="form-check mt-4">
+                            <input asp-for="IsLive" class="form-check-input " />
+                            <label asp-for="IsLive" class="form-check-label fw-bold">Is Live</label>
+                        </div>
+                    </div>
+
+                    <!-- Created By -->
+                    <div class="mb-3 col-lg-6 col-12">
+                        <label asp-for="CreateBy" class="form-label fw-bold">Created By</label>
+                        <input asp-for="CreateBy" class="form-control" placeholder="Enter creator name" />
+                        <span asp-validation-for="CreateBy" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Create Date -->
+                    <div class="mb-3 col-lg-6 col-12">
+                        <label asp-for="CreateDate" class="form-label fw-bold">Create Date</label>
+                        <input asp-for="CreateDate" type="date" class="form-control" />
+                        <span asp-validation-for="CreateDate" class="text-danger"></span>
+                    </div>
+
+                    <!-- Updated By -->
+                    <div class="mb-3 col-lg-6 col-12">
+                        <label asp-for="UpdateBy" class="form-label fw-bold">Updated By</label>
+                        <input asp-for="UpdateBy" class="form-control" placeholder="Enter updater name" />
+                        <span asp-validation-for="UpdateBy" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Update Date -->
+                    <div class="mb-3 col-lg-6 col-12">
+                        <label asp-for="UpdateDate" class="form-label fw-bold">Update Date</label>
+                        <input asp-for="UpdateDate" type="date" class="form-control" />
+                        <span asp-validation-for="UpdateDate" class="text-danger"></span>
+                    </div>
+
+                    <!-- Is Active -->
+                    <div class="col-lg-6 col-12 mt-4">
+                        <div class="form-check">
+                            <input asp-for="IsActive" class="form-check-input" />
+                            <label asp-for="IsActive" class="form-check-label fw-bold">Is Active</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="d-grid mt-4">
+                    <input type="submit" value="Create" class="btn btn-primary w-100" />
+                </div>
+
+                
+            </form>
+        </div>
+    </div>
+</div>
