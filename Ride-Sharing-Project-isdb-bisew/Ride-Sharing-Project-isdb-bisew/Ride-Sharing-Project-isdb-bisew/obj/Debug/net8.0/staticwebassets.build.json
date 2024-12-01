@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tL6E1INI/bi8K26gotKs1d74AjCmCnwcfN46+zf6KnA=",
+  "Hash": "CvLeWURSS2WYiMSUGxioY/Kwz9HTkIjyOHBbyuaF65I=",
   "Source": "Ride-Sharing-Project-isdb-bisew",
   "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zh4we4fxys",
-      "Integrity": "OZMt8bjtW773cM3Y1O3QnYKPccus25oxnaghibSnSnM=",
+      "Fingerprint": "2w1end62ml",
+      "Integrity": "7lPNnx7Z7zydpZQOnppUnBYT6LZMsYefyqkHbGpCW3c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1550,6 +1550,51 @@
       ]
     },
     {
+      "Route": "css/site.2w1end62ml.css",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3105"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7lPNnx7Z7zydpZQOnppUnBYT6LZMsYefyqkHbGpCW3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Dec 2024 05:17:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2w1end62ml"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7lPNnx7Z7zydpZQOnppUnBYT6LZMsYefyqkHbGpCW3c="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1560,7 +1605,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3107"
+          "Value": "3105"
         },
         {
           "Name": "Content-Type",
@@ -1568,11 +1613,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OZMt8bjtW773cM3Y1O3QnYKPccus25oxnaghibSnSnM=\""
+          "Value": "\"7lPNnx7Z7zydpZQOnppUnBYT6LZMsYefyqkHbGpCW3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 04:57:19 GMT"
+          "Value": "Sun, 01 Dec 2024 05:17:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1582,52 +1627,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OZMt8bjtW773cM3Y1O3QnYKPccus25oxnaghibSnSnM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.zh4we4fxys.css",
-      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3107"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OZMt8bjtW773cM3Y1O3QnYKPccus25oxnaghibSnSnM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 04:57:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zh4we4fxys"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OZMt8bjtW773cM3Y1O3QnYKPccus25oxnaghibSnSnM="
+          "Value": "sha256-7lPNnx7Z7zydpZQOnppUnBYT6LZMsYefyqkHbGpCW3c="
         }
       ]
     },
@@ -6984,7 +6984,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 06:23:46 GMT"
+          "Value": "Sun, 01 Dec 2024 17:32:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7029,7 +7029,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 06:23:46 GMT"
+          "Value": "Sun, 01 Dec 2024 17:32:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7074,7 +7074,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 06:23:46 GMT"
+          "Value": "Sun, 01 Dec 2024 17:32:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7111,7 +7111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 06:23:46 GMT"
+          "Value": "Sun, 01 Dec 2024 17:32:17 GMT"
         },
         {
           "Name": "Cache-Control",
