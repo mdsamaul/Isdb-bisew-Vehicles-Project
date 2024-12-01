@@ -87,7 +87,7 @@
                     </div>
                     <div class="row">
                         <div class="col text-center">
-                            <a href="https://m.uber.com/looking" class="btn btn-primary">See Vichecle</a>
+                            <a href="#" class="btn btn-primary">See Vichecle</a>
                         </div>
                     </div>
                 </div>
@@ -95,6 +95,92 @@
            </div>
         </div>
     </div>
-
 </div>
+<section class="entyPersonContainer" style="display:none;">
+    <div class="entyPersonBody">
+      <div>
+            <div class="cardSection">
+                <div>
+                    <div class="card">
+                        <img src="~/images/samaul.png" alt="Profile Image" />
+                        @* <img src="https://via.placeholder.com/150" alt="Profile Image"> *@
+                        <a class="cardBtn singRidebtn" asp-action="Create" asp-controller="Customer" type="button">Sign in to Ride</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <img src="~/images/samaul.png" alt="Profile Image" />
+                        @* <img src="https://via.placeholder.com/150" alt="Profile Image"> *@
+                        <a class="cardBtn" asp-action="Create" asp-controller="Customer" type="button">Sign in to Driver</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <img src="~/images/samaul.png" alt="Profile Image" />
+                        @* <img src="https://via.placeholder.com/150" alt="Profile Image"> *@
+                        <a class="cardBtn" asp-action="Create" asp-controller="Customer" type="button">Sign in to Employee</a>
+                    </div>
+                </div>
+            </div>
+            <div class="closeSection">
+                <button class="closeSectionBtn">X</button>
+            </div>
+      </div>
+    </div>
+</section>
+
+<section>
+    <div id="modCon" style="display:none;">
+        <div id="modbod" class=" p-5">
+            <div id="bmodal"></div>
+            <div class="modal-footer mt-3">
+                <button class="btn btn-danger" type="button" id="clBtn">Close</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script type="text/javascript">
+        $(document).ready(()=>{
+        $(".singRidebtn").click((e) => {
+        e.preventDefault();
+        $.ajax({
+            url: "/Customer/Create", 
+            type: "get",
+            success: (response) => {
+                $("#bmodal").html(response);
+                $("#pcon").hide();
+                $(".entyPersonContainer").hide();
+                $("#modCon").show();
+            },
+            error: (xhr, status, error) => {
+                console.error("Error occurred:", error);
+                alert("Something went wrong! Please try again.");
+            }
+        });
+        // $.ajax({
+        //     url: "/Customer/Create",
+        //     type: "post",
+        //     success: (response) => {
+        //         $("#bmodal").html(response);
+        //         $("#pcon").hide();
+        //         $(".entyPersonContainer").hide();
+        //         $("#modCon").show();
+        //     },
+        //     error: (xhr, status, error) => {
+        //         console.error("Error occurred:", error);
+        //         alert("Something went wrong! Please try again.");
+        //     }
+        // });
+     });
+
+
+                          
+                    $("#clBtn").click(()=>{
+                            $("#modCon").hide();
+                            $("#pcon").show();
+                    })
+         });
+    </script>
 
