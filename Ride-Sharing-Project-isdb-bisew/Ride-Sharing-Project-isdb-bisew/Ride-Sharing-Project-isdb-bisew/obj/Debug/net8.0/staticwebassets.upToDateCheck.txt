@@ -1,5 +1,12 @@
+wwwroot\css\output.css
 wwwroot\css\site.css
+wwwroot\css\tailwind.css
 wwwroot\favicon.ico
+wwwroot\Images\bg1.png
+wwwroot\Images\logo\logo.png
+wwwroot\Images\samaul.png
+wwwroot\js\newFile.1.js
+wwwroot\js\newFile.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
