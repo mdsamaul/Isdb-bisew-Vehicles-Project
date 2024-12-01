@@ -1,13 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ride_Sharing_Project_isdb_bisew.Models.ViewModel
 {
     public class DriverVm
     {
-        public int DriverId { get; set; }
+        [Required ,DisplayName("Driver Name")]
         public string? DriverName { get; set; }
         public required string Email { get; set; }
+        [Required, DisplayName("NId Number")]
         public int NID_Number { get; set; }
+        [Required, DisplayName("Driver License")]
         public string? DrivingLicense { get; set; }
         public string? Picture { get; set; }
         public IFormFile? PictureFile { get; set; } 
