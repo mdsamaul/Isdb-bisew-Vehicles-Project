@@ -1,0 +1,50 @@
+﻿@model Ride_Sharing_Project_isdb_bisew.Models.ViewModel.CustomerVm
+
+@{
+    ViewData["Title"] = "Customer Registration";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center fs-1 mb-4">Create Customer</h2>
+
+    <form asp-action="Create" method="post" class="needs-validation" novalidate>
+        <div class="row mb-3">
+            <!-- Customer Name -->
+            <div class="col-md-6 col-sm-12">
+                <label asp-for="CustomerName" class="form-label">Customer Name</label>
+                <input asp-for="CustomerName" class="form-control" placeholder="Enter customer name" required />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-6 col-sm-12">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input asp-for="Email" type="email" class="form-control" placeholder="Enter email" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <!-- Phone Number -->
+            <div class="col-md-6 col-sm-12">
+                <label asp-for="PhoneNumber" class="form-label">Phone Number (Optional)</label>
+                <input asp-for="PhoneNumber" class="form-control" placeholder="Enter phone number" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+
+            <!-- Password -->
+            <div class="col-md-6 col-sm-12">
+                <label asp-for="Password" class="form-label">Password</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Enter password" required />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary w-100">Register</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
