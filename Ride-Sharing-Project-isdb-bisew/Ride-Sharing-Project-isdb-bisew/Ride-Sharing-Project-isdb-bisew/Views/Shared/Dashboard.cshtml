@@ -59,6 +59,17 @@
                         </li>
                     </ul>
                 </li>
+                <li class="sidenav-item">
+                    <a class="sidenav-link" id="RideTrackNavSide"><i class="fas fa-lock pr-3"></i><span>RideTrack</span></a>
+                    <ul class="sidenav-collapse">
+                        <li class="sidenav-item" id="RideTrackCreateNavSide">
+                            <a class="sidenav-link">Create</a>
+                        </li>
+                        <li class="sidenav-item">
+                            <a class="sidenav-link">Reset password</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </div>
        
@@ -181,6 +192,26 @@
                 }
             });
         });
+        $("#RideTrackNavSide").click(function () {
+            $.ajax({
+                url: '/RideTrack/Index',  // Corresponding action method
+                type: 'GET',
+                success: function (data) {
+                    $("#content-placeholder").html(data);  // Replace content
+                }
+            });
+        });
+
+        $("#RideTrackCreateNavSide").click(function () {
+            $.ajax({
+                url: '/RideTrack/Create',  // Corresponding action method
+                type: 'GET',
+                success: function (data) {
+                    $("#content-placeholder").html(data);  // Replace content
+                }
+            });
+        });
+
     });
 
 </script>
