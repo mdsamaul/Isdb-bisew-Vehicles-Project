@@ -1,9 +1,4 @@
-﻿@* @{
-    ViewData["Title"] = "Dashboard";
-    Layout = "_Layout";  // Assuming your layout file is in Views/Shared/_Layout.cshtml
-}
- *@
-
+﻿
 @{
     ViewData["Title"] = "Dashboard";
     Layout = "~/Views/Shared/_Layout.cshtml";  // Use your layout here
@@ -38,10 +33,10 @@
                     </a>
                 </li>
                 <li class="sidenav-item">
-                    <a class="sidenav-link" href="#" id="settings" type="button"><i class="fas fa-cogs pr-3"></i><span>Settings</span></a>
+                    <a class="sidenav-link" href="#" id="settings" type="button"><i class="fas fa-cogs pr-3"></i><span>Customer</span></a>
                     <ul class="sidenav-collapse">
                         <li class="sidenav-item">
-                            <a class="sidenav-link" id="Profile">Profile</a>
+                            <a class="sidenav-link" id="Profile">Create</a>
                         </li>
                         <li class="sidenav-item">
                             <a class="sidenav-link">Account</a>
@@ -49,10 +44,10 @@
                     </ul>
                 </li>
                 <li class="sidenav-item">
-                    <a class="sidenav-link" href="#"><i class="fas fa-lock pr-3"></i><span>Password</span></a>
+                    <a class="sidenav-link" id="DriverNavsite"><i class="fas fa-lock pr-3"></i><span>Driver</span></a>
                     <ul class="sidenav-collapse">
-                        <li class="sidenav-item">
-                            <a class="sidenav-link">Request password</a>
+                        <li class="sidenav-item" id="DriverCreateNavsite">
+                            <a class="sidenav-link">Create</a>
                         </li>
                         <li class="sidenav-item">
                             <a class="sidenav-link">Reset password</a>
@@ -71,8 +66,7 @@
                     </ul>
                 </li>
             </ul>
-        </div>
-       
+        </div>       
    </div>
     <!-- Sidenav -->
     <!-- Navbar -->
@@ -192,26 +186,24 @@
                 }
             });
         });
-        $("#RideTrackNavSide").click(function () {
+        $("#DriverNavsite").click(function () {
             $.ajax({
-                url: '/RideTrack/Index',  // Corresponding action method
+                url: '/Driver/Index',  // Corresponding action method
                 type: 'GET',
                 success: function (data) {
                     $("#content-placeholder").html(data);  // Replace content
                 }
             });
         });
-
-        $("#RideTrackCreateNavSide").click(function () {
+        $("#DriverCreateNavsite").click(function () {
             $.ajax({
-                url: '/RideTrack/Create',  // Corresponding action method
+                url: '/Driver/Create',  // Corresponding action method
                 type: 'GET',
                 success: function (data) {
                     $("#content-placeholder").html(data);  // Replace content
                 }
             });
         });
-
     });
 
 </script>
