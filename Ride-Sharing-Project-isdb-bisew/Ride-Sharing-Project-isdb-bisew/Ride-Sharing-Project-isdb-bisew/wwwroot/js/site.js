@@ -1,4 +1,31 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿
+$(document).ready(() => {
+    $(".clearPickupBtn").click(() => {
+        $(".pickup-location").val('');
+    });
+    $(".clearDropoffBtn").click(() => {
+        $(".dropoff-location").val('');
+    });
+    function getCurrentTime() {
+        let currentTime = new Date();
+        let hours = currentTime.getHours().toString().padStart(2, '0');
+        let minutes = currentTime.getMinutes().toString().padStart(2, '0');
+        return hours + ':' + minutes;
+    }
+    $("#timePicker").focus(() => {
+        $("#timePicker").val(getCurrentTime());
+    });
 
-// Write your JavaScript code.
+    $(".singinbtn").click((e) => {
+        e.preventDefault();
+        $(".entyPersonContainer").show();
+    });
+    $(".singupBtn").click((e) => {
+        e.preventDefault();
+        $(".entyPersonContainer").show();
+    });
+    $(".closeSectionBtn").click((e) => {
+        e.preventDefault();
+        $(".entyPersonContainer").hide();
+    });
+});
