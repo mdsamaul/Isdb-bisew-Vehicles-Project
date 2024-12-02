@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "addswGcHrVieHmy//mJ8itf4rWfFNCxomQcgb9vINRo=",
+=======
+  "Hash": "fXfiN5+jz2FK4TjArvgm4OtCsV1uBSCQ0eYoQaqWV5o=",
+>>>>>>> 53af549ec01983bbd65eaacb6ae90bbfa5a5b7d1
   "Source": "Ride-Sharing-Project-isdb-bisew",
   "BasePath": "_content/Ride-Sharing-Project-isdb-bisew",
   "Mode": "Default",
@@ -1490,7 +1494,10 @@
   "Endpoints": [
     {
       "Route": "css/output.6ik7w2on7a.css",
+<<<<<<< HEAD
       "AssetFile": "F:\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\output.css",
+=======
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\output.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1515,6 +1522,53 @@
         },
         {
           "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ik7w2on7a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/output.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jgu/lK+6+CBbcfwvHjCngRdo7rxhDeV78jCabVQGJbU="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.css",
+      "AssetFile": "D:\\course\\idb-project\\Isdb-bisew-Vehicles-Project\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\Ride-Sharing-Project-isdb-bisew\\wwwroot\\css\\output.css",
+>>>>>>> 53af549ec01983bbd65eaacb6ae90bbfa5a5b7d1
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jgu/lK+6+CBbcfwvHjCngRdo7rxhDeV78jCabVQGJbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 03:31:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+<<<<<<< HEAD
           "Value": "max-age=31536000, immutable"
         }
       ],
@@ -1560,6 +1614,8 @@
         },
         {
           "Name": "Cache-Control",
+=======
+>>>>>>> 53af549ec01983bbd65eaacb6ae90bbfa5a5b7d1
           "Value": "no-cache"
         }
       ],
